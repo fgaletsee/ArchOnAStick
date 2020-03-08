@@ -12,3 +12,10 @@ ArchOnAStick is a portable Arch Linux system, runnung on a USB stick or ssd with
 
 ### How to setup your own ArchOnAStick system
 
+
+#### Recomended gpart layout
+
+  - 10 M Bios EF02
+  - 500 M EFI EF00
+  - x GB Linux FS xxxx
+  - optional x G exfat Share drive
